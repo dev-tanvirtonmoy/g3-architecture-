@@ -41,3 +41,31 @@ img {
     --white-2: #FFF4E7;
     --bg-color: #FF900E;
 }
+
+header {
+    background: rgba(255, 144, 14, 0.10);;
+    padding: 45px 0;
+}
+
+/* Navbar part CSS start from here */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo {
+    font-size: 2.125rem;
+    color: var(--dark-1);
+    font-weight: 700;
+}
+nav .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav .nav-links li a {
+    font-size: 1rem;
+    line-height: 140%;
+    color: var(--dark-2);
+}
+/* Navbar part CSS end here */
