@@ -9,6 +9,7 @@
 }
 body {
   overflow-x: hidden;
+  font-family: "Work Sans", serif;
 }
 ol,
 ul,
@@ -22,4 +23,21 @@ a:hover {
 img {
   display: flex;
   object-fit: cover;
+}
+
+/* Shared CSS for entire project */
+.container{
+    max-width: 1440px;
+    margin-inline: auto;
+    width: 75%;
+}
+
+/* Shared root code */
+:root{
+    --dark-1: #131313;
+    --dark-2: #424242;
+    --dark-3: #727272;
+    --white-1: #ffffff;
+    --white-2: #FFF4E7;
+    --bg-color: #FF900E;
 }
