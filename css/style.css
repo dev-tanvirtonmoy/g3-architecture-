@@ -48,6 +48,11 @@ p {
   text-transform: capitalize;
   cursor: pointer;
 }
+.section-heading {
+  font-size: 2.813rem;
+  color: var(--dark-1);
+  font-weight: 700;
+}
 /* Shared root code */
 :root {
   --dark-1: #131313;
@@ -112,3 +117,31 @@ nav .nav-links li a {
   width: 100%;
 }
 /* Hero area CSS end here */
+
+/* About us section CSS start from here */
+#about {
+  display: flex;
+  align-items: center;
+  margin: 80px 0;
+  gap: 60px;
+}
+#about .about-con {
+  width: 468px;
+}
+#about .about-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-left: 50px;
+}
+.about-con p {
+  margin: 24px 0 32px 0;
+}
+.about-con span:first-child{
+  font-weight: 500;
+  color: var(--dark-3);
+}
+.about-con span:last-child{
+  color: var(--bg-color);
+}
+/* About us section CSS end here */
