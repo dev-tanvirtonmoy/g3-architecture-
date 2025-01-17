@@ -7,5 +7,11 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  /* Hero area responsive start from here */
+  header #hero-area .hero-con {
+    width: 100%;
+  }
+  /* Hero area responsive end here */
 }
 /* Mobile view responsive end here */

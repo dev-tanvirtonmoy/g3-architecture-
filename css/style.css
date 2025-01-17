@@ -93,12 +93,16 @@ nav .nav-links li a {
 }
 .hero-con {
   width: 862px;
-  margin-inline: auto;
+  margin: 50px auto;
 }
 #hero-area .hero-con .hero-title {
   font-size: 4rem;
   color: var(--dark-1);
   font-weight: 700;
+  margin-bottom: 16px;
+}
+.hero-con button {
+  margin-top: 32px;
 }
 #hero-area .hero-image {
   max-width: 1420px;
