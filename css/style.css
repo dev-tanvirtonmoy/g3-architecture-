@@ -1,5 +1,5 @@
 /* "Work Sans" font imported from fonts.google.com */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Common CSS code for entire project */
 * {
@@ -26,46 +26,85 @@ img {
 }
 
 /* Shared CSS for entire project */
-.container{
-    max-width: 1440px;
-    margin-inline: auto;
-    width: 75%;
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  width: 75%;
 }
-
+p {
+  font-size: 1rem;
+  color: var(--dark-3);
+  font-weight: 400;
+  line-height: 160%;
+}
+.primary-btn {
+  background: var(--bg-color);
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: none;
+  color: var(--white-1);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+}
 /* Shared root code */
-:root{
-    --dark-1: #131313;
-    --dark-2: #424242;
-    --dark-3: #727272;
-    --white-1: #ffffff;
-    --white-2: #FFF4E7;
-    --bg-color: #FF900E;
+:root {
+  --dark-1: #131313;
+  --dark-2: #424242;
+  --dark-3: #727272;
+  --white-1: #ffffff;
+  --white-2: #fff4e7;
+  --bg-color: #ff900e;
 }
 
 header {
-    background: rgba(255, 144, 14, 0.10);;
-    padding: 45px 0;
+  background: rgba(255, 144, 14, 0.1);
+  padding: 45px 0;
 }
 
 /* Navbar part CSS start from here */
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 nav .logo {
-    font-size: 2.125rem;
-    color: var(--dark-1);
-    font-weight: 700;
+  font-size: 2.125rem;
+  color: var(--dark-1);
+  font-weight: 700;
 }
-nav .nav-links{
-    display: flex;
-    align-items: center;
-    gap: 40px;
+nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-transform: capitalize;
 }
 nav .nav-links li a {
-    font-size: 1rem;
-    line-height: 140%;
-    color: var(--dark-2);
+  font-size: 1.125rem;
+  line-height: 140%;
+  color: var(--dark-2);
 }
 /* Navbar part CSS end here */
+
+/* Hero area CSS start from here */
+#hero-area {
+  text-align: center;
+}
+.hero-con {
+  width: 862px;
+  margin-inline: auto;
+}
+#hero-area .hero-con .hero-title {
+  font-size: 4rem;
+  color: var(--dark-1);
+  font-weight: 700;
+}
+#hero-area .hero-image {
+  max-width: 1420px;
+  margin-inline: auto;
+}
+.hero-image img {
+  width: 100%;
+}
+/* Hero area CSS end here */
