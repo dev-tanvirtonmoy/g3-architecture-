@@ -10,6 +10,7 @@
 body {
   overflow-x: hidden;
   font-family: "Work Sans", serif;
+  scroll-behavior: smooth;
 }
 ol,
 ul,
@@ -137,11 +138,70 @@ nav .nav-links li a {
 .about-con p {
   margin: 24px 0 32px 0;
 }
-.about-con span:first-child{
+.about-con span:first-child {
   font-weight: 500;
   color: var(--dark-3);
 }
-.about-con span:last-child{
+.about-con span:last-child {
   color: var(--bg-color);
 }
 /* About us section CSS end here */
+
+/* Feature section CSS start from here */
+#feature {
+  display: flex;
+  gap: 120px;
+}
+#feature h2 {
+  border-left: 5px solid var(--bg-color);
+  padding-left: 20px;
+  width: 468px;
+  margin-bottom: 24px;
+}
+#feature p {
+  width: 586px;
+  margin-bottom: 30px;
+}
+.feature-card-container .feature-card {
+  padding: 30px;
+  background: var(--white-1);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.feature-card-container .feature-card:last-child{
+  margin-bottom: 0;
+}
+.feature-card .card-title {
+  color: var(--dark-1);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature-img {
+  position: relative;
+}
+.feature-img .tag {
+  padding: 42px;
+  background: var(--bg-color);
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: -10%;
+}
+.tag span:first-child{
+  display: block;
+  color: var(--white-1);
+  font-size: 4.063rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.tag span:last-child{
+  color: var(--white-1);
+  font-size: 1.563rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+/* Feature section CSS end here */
