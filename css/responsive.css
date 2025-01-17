@@ -28,5 +28,23 @@
     width: 100%;
   }
   /* About us section responsive end here */
+
+  /* Feature section responsive start from here */
+  main #feature {
+    flex-direction: column;
+    gap: 60px;
+  }
+  main #feature .feature-con h2 {
+    width: 100%;
+  }
+  main #feature .feature-con p {
+    width: 100%;
+  }
+  main #feature .feature-img .tag {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+  /* Feature section responsive end here */
 }
 /* Mobile view responsive end here */
