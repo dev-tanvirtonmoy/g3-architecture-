@@ -46,5 +46,15 @@
     width: 100%;
   }
   /* Feature section responsive end here */
+
+  /* Facts section responsive start from here */
+  main #fact p {
+    width: 100%;
+  }
+  main #fact .fact-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  /* Facts section responsive end here */
 }
 /* Mobile view responsive end here */

@@ -208,3 +208,42 @@ nav .nav-links li a {
   line-height: 40px;
 }
 /* Feature section CSS end here */
+
+/* Fact section CSS start from here */
+#fact {
+  margin: 60px 0;
+}
+#fact h2 {
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+#fact p {
+  width: 542px;
+}
+.fact-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+  margin-top: 50px;
+}
+.fact-card-container .fact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--bg-color);
+  border-radius: 8px;
+  height: 240px;
+}
+.fact-card h3 {
+  font-size: 2.813rem;
+  color: var(--dark-2);
+  margin: 10px 0 5px 0;
+  font-weight: 600;
+}
+.fact-card h4 {
+  font-size: 1.25rem;
+  color: var(--dark-2);
+  font-weight: 600;
+}
+/* Fact section CSS end here */
