@@ -169,7 +169,7 @@ nav .nav-links li a {
   border-radius: 8px;
   margin-bottom: 20px;
 }
-.feature-card-container .feature-card:last-child{
+.feature-card-container .feature-card:last-child {
   margin-bottom: 0;
 }
 .feature-card .card-title {
@@ -194,14 +194,14 @@ nav .nav-links li a {
   top: 80%;
   left: -10%;
 }
-.tag span:first-child{
+.tag span:first-child {
   display: block;
   color: var(--white-1);
   font-size: 4.063rem;
   font-weight: 700;
   line-height: 70px;
 }
-.tag span:last-child{
+.tag span:last-child {
   color: var(--white-1);
   font-size: 1.563rem;
   font-weight: 500;
