@@ -269,3 +269,16 @@ nav .nav-links li a {
   filter: grayscale(100%);
 }
 /* Our Sponsors section CSS end here */
+
+/* Footer section CSS start from here */
+footer {
+  border-radius: 8px;
+  background: var(--white-2);
+  padding: 30px;
+  text-align: center;
+}
+footer span {
+  font-size: 1.25rem;
+  color: var(--dark-2);
+}
+/* Footer section CSS end here */
