@@ -247,3 +247,25 @@ nav .nav-links li a {
   font-weight: 600;
 }
 /* Fact section CSS end here */
+
+/* Our Sponsors section CSS start from here */
+#sponsors {
+  margin: 100px 0;
+}
+#sponsors .sponsors-head {
+  text-align: center;
+  width: 542px;
+  margin: 0 auto 30px;
+}
+.sponsors-head h2 {
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.sponsors-company {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.sponsors-company img {
+  filter: grayscale(100%);
+}
+/* Our Sponsors section CSS end here */
