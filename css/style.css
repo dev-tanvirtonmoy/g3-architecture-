@@ -276,6 +276,7 @@ footer {
   background: var(--white-2);
   padding: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
 footer span {
   font-size: 1.25rem;
